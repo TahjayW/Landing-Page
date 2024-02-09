@@ -3,22 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
     <link  rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="Header">
+    <div class="container Header"> 
+        <div class="headertitle"> Header Logo</div>
         <ul class="links">
             <li>header link one </li>
             <li>header link two </li>
             <li>header link three </li>
         </ul>
     </div>
-    <div class="container containerOne"></div>
-    <div class="container containerTwo"></div>
-    <div class="container ContainerThree"></div>
-    <div class="container ContainerFour"></div>
+    
+    
+    <div class="container containerOne">CONTAINER ONE
+        <!-- main page container divides into two sub containers for 
+        an image and some text that don't pass the header logo line on the left
+        and the links on the right of the header-->
+        <div class="container A">
+            <div class="container A1">
+                <h1 class="HeroTitle"> This website is awesoome</h1>
+                <p>
+                    This website has some subtext that goes here 
+                    under the main title. It's a smaller font and the color is lower contrast
+                </p>
+            </div>
+            <div class="container A2">
+                <div class="HeroImage"> This is a placeholder for an image</div>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+    <div class="container containerTwo">CONTAINER TWO
+        <h1 class="SomeRandomInformation"> Some Random Information.</h1>
+        <div class="someboxes grid"> There should be some boxes here center aligned
+            <div class="box ">this is a box</div>
+            <div class="box ">this is a box</div>
+            <div class="box ">this is a box</div>
+            <div class="box ">this is a box</div>
+        </div>
 
-    <div class="footer"></div>
+    </div>
+    <div class="container ContainerThree">Quotes in here</div>
+    <div class="container ContainerFour">Sign Up stuff</div>
+
+    <div class="footer">FOOTER</div>
 </body>
 </html>
