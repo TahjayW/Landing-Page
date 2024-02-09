@@ -20,17 +20,20 @@ body{
     margin:0;
 }
 .A{
-flex:1;
+
+
 }
 
 .A1{
 display: flex;
 flex-direction: column;
-flex:1;
+
 flex-wrap: wrap;
+max-width: 375px;
+margin: 0;
 }
 .A2{
-    flex:1;
+    
 }
 
 .headertitle{
@@ -47,6 +50,7 @@ font-size: 18px;
 .containerOne{
 background-color: #1F2937;
 color: white;
+justify-content: center;
 }
 
 .HeroImage{
