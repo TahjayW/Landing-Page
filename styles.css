@@ -1,87 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-body{
-    display:flex;
+
+body {
+    display: flex;
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
-.Header{
+
+.Header {
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
     padding: 20px;
     padding-right: 200px;
     padding-left: 200px;
-  }
-    
+}
 
-.links{
+
+.links {
     display: flex;
     list-style-type: none;
     gap: 16px;
     justify-content: flex-end;
     padding: 0;
-    margin:0;
-    margin-right: 50px;
-}
-.A{
+    margin: 0;
+      margin-right: 0px;
+    margin-right: 30px;
+    align-items: center;
+    font-size: 12px;
+    }
+
+.A {
     min-width: 800px;
     justify-content: space-evenly;
     flex: 1;
     padding: 5px 200px;
-  }
+}
 
- 
 
-.A1{
+
+.A1 {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0;
     flex: 1;
-    max-width: 375px;
-}
-.A2{
-    flex: 1;
-  
+    max-width: 400px;
 }
 
-.headertitle{
+.A2 {
+    flex: 1;
+
+}
+
+.headertitle {
     font-weight: bold;
     font-size: 24px;
-    
-  padding-left: 17px;
+    padding-left: 17px;
 }
 
-.headertitle, .links{
-font-size: 18px;
-}
-.container{
-    display:flex;
+
+
+.container {
+    display: flex;
 }
 
 .HeroTitle {
-	margin: 0px;
+    margin: 0px 10px 0px 0px;
+    font-size: 48px;
 }
+
 .containerOne {
-	background-color: #1F2937;
-	color: white;
-	justify-content: space-around;
-	padding: 80px 80px 150px 50px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+    padding: 80px 80px 150px 80px;
 }
 
-.HeroImage{
-display:flex;
-background-color: grey;
-color: white;
-justify-content: center;
-align-items: center;
-flex:1;
+.HeroImage {
+    display: flex;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
-.containerTwo{
+.containerTwo {
     flex-direction: column;
     align-items: center;
 }
-.someboxes-grid{
+
+.someboxes-grid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +99,7 @@ flex:1;
     flex-wrap: wrap;
 }
 
-.box{
+.box {
     height: 150px;
     width: 130px;
     border-style: solid;
@@ -98,34 +107,88 @@ flex:1;
     border-radius: 10px;
 }
 
-.box.text{
+.box.text {
     display: flex;
-font-size: 12px;
-border: none;
-align-items: flex-start;
-justify-content: center;
+    font-size: 12px;
+    border: none;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.SomeRandomInformation{
+.SomeRandomInformation {
     padding: 25px;
 }
 
-.container .Header .links{
+.container .Header .links {
     justify-content: flex-end;
 }
 
+.A1 button{
+    margin-right: auto;
+    margin-left: 0;
+    border: transparent;
+}
+.A1 p{
+    margin: 5px;
+}
 button {
-	color: white;
-	background-color: #3882f6;
-	border-radius: 5px;
-	border-color: transparent;
-	font-weight: bold;
-    align-self: start;
+    color: white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  font-weight: bold;
   padding: 5px 25px 5px 25px;
+margin-left: auto;
 }
 
-.container.ContainerThree{
-background-color: #E5E7EB;
+.container.ContainerThree {
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.ContainerFour {
+	justify-content: center;
+	background-color: #3882F6;
+	color: white;
+	border-radius: 5px;
+	margin: 80px 150px 80px 150px;
+	padding: 40px 80px 40px 80px;
+}
+.textContainer{
+flex-direction: column;
+align-items: flex-start;
+}
+.textContainer .boldedText{
+    font-weight: bold;
+    margin: 0;
+}
+.textContainer .subText{
+    margin: 0;
+    font-size: 14px;
+}
+.ContainerFour button{
+align-self: center;
+border: white;
+border-style: solid;
+justify-content: right;
+}
+.footer{
 justify-content: center;
 align-items: center;
+background-color: #1F2937;
+color: white;
+}
+
+.container.ContainerThree p{
+    font-style: italic;
+  max-width: 830px;
+  font-size: 36px;
+}
+.ContainerThree p span{
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: right;
+    font-size: 18px;
 }
