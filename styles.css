@@ -105,6 +105,9 @@ body {
     border-style: solid;
     border-color: #3882F6;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box.text {
@@ -191,4 +194,18 @@ color: white;
     font-weight: bold;
     justify-content: right;
     font-size: 18px;
+}
+
+.container.C{
+    flex-direction: column;
+}
+.container.C .box.text p{
+padding: 0;
+margin: 0;
+text-align: center;
+}
+.container.C img{
+    max-width: 100%;
+    border-radius: 25px;
+    align-items: center;
 }
