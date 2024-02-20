@@ -9,3 +9,5 @@ the design process of placing, layering and aligning items to a webpage.
 -REMOVE PLACEHOLDER IMG
 -CLEAN STYLES.CSS TO REDUCE LINE COUNT
 -COMMENT FOR CLEANER INDEX.HTML
+<!-- Possible future changes for site interactivity? 
+Want to experiment with JavaScript on images (hover enlarging an image for example) -->
